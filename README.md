@@ -8,7 +8,7 @@ a better php routing mechanism
 ## overview
 PHP Router is a tested attempt to enhance the design of the [php-router](https://github.com/phprouter/main) project on GitHub.
 
-This repository contains source code for a better design that uses [classes]() and adds features like asset handling. In addition to the features, better error handling and redirections are introduced in this design.
+This repository contains source code for a better design that uses [classes](https://www.php.net/manual/en/book.classobj) and adds features like asset handling. In addition to the features, better error handling and redirections are introduced in this design.
 
 Significant differences from the original router include dynamic routing and project setup.
 
