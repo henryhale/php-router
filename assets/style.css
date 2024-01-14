@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body>* {
+    margin-bottom: 2rem;
+}
+
+li {
+    margin: 1rem 0;
+}

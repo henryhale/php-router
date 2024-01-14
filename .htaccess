@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_URI} !assets\/.*(\.png|\.jpg|\.webp|\.gif|\.jpeg|\.css|\.svg|\.js)$
+
+    # Redirect all requests to index.php
+    RewriteRule (.*) index.php [QSA,L]
+</IfModule>
